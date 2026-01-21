@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "ad",
+      "resourceTypes": [
+        "image",
+        "script",
+        "sub_frame",
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "doubleclick.net",
+      "resourceTypes": ["image", "script", "sub_frame"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "googlesyndication.com",
+      "resourceTypes": ["image", "script", "sub_frame"]
+    }
+  }
+]
